@@ -93,6 +93,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@sanity/cli@^2.29.8":
+  version "2.29.8"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-2.29.8.tgz#fdb2635d70f2f345755f2256aa8352f759d4b43a"
+  integrity sha512-/SYfrN8VxZb020XAL2BCzAVH+EmLJRLC1SiGPM7DdarufAfzUT4kIAUspVTqQx9yDzoovHHg5Pi18OZZnEWesQ==
+
 "@types/node@17.0.4":
   version "17.0.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.4.tgz#fec0ce0526abb6062fd206d72a642811b887a111"
