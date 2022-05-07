@@ -15,10 +15,10 @@ import SidebarRow from './SidebarRow'
 
 function Sidebar() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col col-span-2 items-center px-4 md:items-start'>
       {/* Twitter Logo */}
       <img
-        className="h-10 w-10"
+        className="m-3 h-10 w-10"
         src="https://links.papareact.com/drq"
         alt="Twitter Logo"
       />
