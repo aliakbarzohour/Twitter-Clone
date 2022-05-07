@@ -33,10 +33,10 @@ function TweetBox() {
             <div className="flex flex-1 space-x-2 text-twitter">
               {/* Icon's */}
               <PhotographIcon className="h-5 w-5 cursor-pointer transition-transform duration-150 ease-out hover:scale-150" />
-              <SearchCircleIcon className="h-5 w-5" />
-              <EmojiHappyIcon className="h-5 w-5" />
-              <CalendarIcon className="h-5 w-5" />
-              <LocationMarkerIcon className="h-5 w-5" />
+              <SearchCircleIcon className="h-5 w-5 cursor-pointer transition-transform duration-150 ease-out hover:scale-150" />
+              <EmojiHappyIcon className="h-5 w-5 cursor-pointer transition-transform duration-150 ease-out hover:scale-150" />
+              <CalendarIcon className="h-5 w-5 cursor-pointer transition-transform duration-150 ease-out hover:scale-150" />
+              <LocationMarkerIcon className="h-5 w-5 cursor-pointer transition-transform duration-150 ease-out hover:scale-150" />
             </div>
             {/* Button for Tweet */}
             <button disabled={!input} className="rounded-full bg-twitter px-5 py-2 font-bold text-white disabled:opacity-40">
