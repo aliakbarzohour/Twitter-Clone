@@ -13,16 +13,16 @@ interface Props {
 
 const Home = ({ tweets }: Props) => {
   return (
-    <div className="lg:max-w-6xl mx-auto max-h-screen overflow-hidden">
+    <div className="mx-auto max-h-screen overflow-hidden lg:max-w-6xl">
       <Head>
         <title>Twitter Clone</title>
       </Head>
 
-      <main className='grid grid-cols-9'>
+      <main className="grid grid-cols-9">
         {/* Sidebar */}
         <Sidebar />
         {/* Feed's */}
-        <Feed tweets={tweets}/>
+        <Feed tweets={tweets} />
         {/* Widget's */}
         <Widgets />
       </main>
@@ -33,11 +33,10 @@ const Home = ({ tweets }: Props) => {
 export default Home
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const tweets = await fetchTweets();
-
+  const tweets = await fetchTweets()
   return {
     props: {
       tweets,
-    }
+    },
   }
 }
